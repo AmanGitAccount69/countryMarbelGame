@@ -1,0 +1,5 @@
+{
+  "name": "Country Marble Run",
+  "description": "A physics-based simulation where country balls battle in a rotating arena. The last country standing wins the round.",
+  "requestFramePermissions": []
+}
