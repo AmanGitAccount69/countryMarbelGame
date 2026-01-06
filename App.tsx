@@ -143,7 +143,8 @@ const App: React.FC = () => {
   const activeCountries = countries.filter(c => c.wins < GAME_CONFIG.WINS_TO_CHAMPION);
 
   return (
-    <div className="relative h-screen w-full bg-slate-950 overflow-hidden font-inter text-white select-none flex flex-col">
+    <div className= "flex flex-col pb-10 bg-red-500 overflow-hidden">
+<div className="relative h-screen w-full bg-slate-950 overflow-hidden font-inter text-white select-none flex flex-col">
       
       {/* 1. Top UI Stack */}
       <div className="relative z-30 w-full flex flex-col shadow-2xl">
@@ -215,6 +216,7 @@ const App: React.FC = () => {
          </div>
       )}
 
+    </div>
     </div>
   );
 };
